@@ -1,0 +1,64 @@
+{
+  "name": "Besufikad Yilma",
+  "title": "Full Stack Developer",
+  "about": "I’m a passionate web developer with expertise in React, Node.js, Python and other modern web technologies. I enjoy building intuitive and dynamic web applications, and I am always eager to learn and explore new tools and techniques to enhance my skills.",
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Python",
+    "SQL",
+    "Flask",
+    "Frappe",
+    "Django",
+    "RedisDB",
+    "NoSQL",
+    "Devops"
+  ],
+  "experience": [
+    {
+      "company": "FINETO",
+      "position": "Software Developer",
+      "duration": "Sep 2024 - Present",
+      "description": "Primarily focused on backend development and DevOps. Responsible for designing and implementing server-side applications while optimizing deployment processes"
+    },
+    {
+      "company": "EAVO",
+      "position": "Backend Developer Intern",
+      "duration": "Jun 2024 - Sep 2024",
+      "description": "Integrated robust Login, SignUp, use third party API, CHAPA Payment system to their website."
+    },
+    {
+      "company": "Yenetta Code",
+      "position": "Junior Developer",
+      "duration": "Jun 2023 - 2024",
+      "description": "Empowered over 30 students in programming education(mainly Python), igniting careers with expertise and care"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Automated Attendance System",
+      "description": "A full-featured Automated attendance app built with React, Flutter, Python, Embedded C and MySQL.",
+      "image": "/images/AATS_image.jpg",
+      "link": "https://github.com/Bese3/ASAS.git"
+    },
+    {
+      "title": "Twitter Clone",
+      "description": "A simple Educational Organization progress tracking system API built with Express, MongoDB/Mongoose, Bull, and Node.js.",
+      "image": "/images/TwittBuzz.png",
+      "link": "https://github.com/Bese3/AFEONEX_task_1"
+    },
+    {
+      "title": "Educational Institution Tracking System",
+      "description": "A simple Educational Organization progress tracking system API built with Express, MongoDB/Mongoose, Bull, and Node.js.",
+      "image": "/images/EDUTrack.png",
+      "link": "https://github.com/Bese3/EDU-Track"
+    }
+  ],
+  "contact": {
+    "email": "07yilmabese@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/besufikad-yilma-711702259/",
+    "github": "https://github.com/bese3"
+  }
+}
+
