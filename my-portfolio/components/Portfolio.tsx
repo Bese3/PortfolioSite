@@ -10,14 +10,11 @@ import Projects from './Projects'
 import Contact from './Contact'
 import Background from './Background'
 
-interface PortfolioData {
+export interface PortfolioData {
   name: string
   title: string
   about: string
-  skills: {
-    name: string
-    description: string
-  }[]
+  skills: Array<string>
   experience: {
     company: string
     position: string

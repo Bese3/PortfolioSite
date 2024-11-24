@@ -10,7 +10,7 @@ export default function Background() {
     const canvas = canvasRef.current
     if (!canvas) return
 
-    const ctx = canvas.getContext('2d')
+    const ctx = canvas?.getContext('2d')
     if (!ctx) return
 
     canvas.width = window.innerWidth
@@ -29,8 +29,8 @@ export default function Background() {
       color: string
 
       constructor() {
-        this.x = Math.random() * canvas.width
-        this.y = Math.random() * canvas.height
+        this.x = Math.random() * (canvas as HTMLCanvasElement).width
+        this.y = Math.random() * (canvas as HTMLCanvasElement).height
         this.size = Math.random() * 3 + 1
         this.speedX = Math.random() * 2 - 1
         this.speedY = Math.random() * 2 - 1
@@ -43,8 +43,8 @@ export default function Background() {
 
         if (this.size > 0.2) this.size -= 0.01
 
-        if (this.x < 0 || this.x > canvas.width) this.speedX *= -1
-        if (this.y < 0 || this.y > canvas.height) this.speedY *= -1
+        if (this.x < 0 || this.x > (canvas as HTMLCanvasElement).width) this.speedX *= -1
+        if (this.y < 0 || this.y > (canvas as HTMLCanvasElement).height) this.speedY *= -1
       }
 
       draw() {
@@ -63,11 +63,13 @@ export default function Background() {
     }
 
     function animate() {
-      ctx.fillStyle = 'rgba(10, 10, 25, 0.05)'
-      ctx.fillRect(0, 0, canvas.width, canvas.height)
-      for (let i = 0; i < particles.length; i++) {
-        particles[i].update()
-        particles[i].draw()
+      if (ctx) {
+        ctx.fillStyle = 'rgba(10, 10, 25, 0.05)'
+        ctx.fillRect(0, 0, (canvas as HTMLCanvasElement).width, (canvas as HTMLCanvasElement).height)
+        for (let i = 0; i < particles.length; i++) {
+          particles[i].update()
+          particles[i].draw()
+        }
       }
       hue += 0.5
       requestAnimationFrame(animate)

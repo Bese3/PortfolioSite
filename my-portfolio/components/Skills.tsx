@@ -2,9 +2,11 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { PortfolioData } from './Portfolio'
+
 
 interface SkillsProps {
-  skills: string[]
+  skills: PortfolioData['skills']
 }
 
 export default function Skills({ skills }: SkillsProps) {
@@ -43,7 +45,7 @@ export default function Skills({ skills }: SkillsProps) {
             key={index}
             variants={itemVariants}
             whileHover={{
-              scale: 1.05,
+              scale: 1.10,
               transition: { duration: 0.2 },
             }}
             className="bg-gray-700 rounded-full px-4 py-2"
