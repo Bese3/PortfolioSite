@@ -15,6 +15,7 @@ export interface PortfolioData {
   title: string
   about: string
   skills: Array<string>
+  photoUrl: string
   experience: {
     company: string
     position: string
@@ -54,7 +55,7 @@ export default function Portfolio() {
         transition={{ duration: 1 }}
         className="relative z-10"
       >
-        <Header name={data.name} title={data.title} />
+        <Header name={data.name} title={data.title} photoUrl={data.photoUrl} />
         <About about={data.about} />
         <Skills skills={data.skills} />
         <Experience experience={data.experience} />

@@ -19,7 +19,7 @@ export default function About({ about }: AboutProps) {
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8 }}
-      className="max-w-3xl mx-auto px-4 py-16 text-center"
+      className="max-w-3xl mx-auto px-4 py-24 text-center"
     >
       <h2 className="text-3xl font-bold mb-8">About Me</h2>
       <p className="text-xl leading-relaxed">{about}</p>
