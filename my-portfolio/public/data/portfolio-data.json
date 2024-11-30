@@ -2,6 +2,7 @@
   "name": "Besufikad Yilma",
   "title": "Full Stack Developer",
   "about": "I’m a passionate web developer with expertise in React, Node.js, Python and other modern web technologies. I enjoy building intuitive and dynamic web applications, and I am always eager to learn and explore new tools and techniques to enhance my skills.",
+  "photoUrl": "/images/hacker.avif",
   "skills": [
     "JavaScript",
     "React",
@@ -24,7 +25,7 @@
     },
     {
       "company": "EAVO",
-      "position": "Backend Developer Intern",
+      "position": "Backend Developer",
       "duration": "Jun 2024 - Sep 2024",
       "description": "Integrated robust Login, SignUp, use third party API, CHAPA Payment system to their website."
     },
