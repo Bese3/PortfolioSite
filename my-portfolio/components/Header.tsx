@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 interface HeaderProps {
   name: string
@@ -10,6 +11,26 @@ interface HeaderProps {
 }
 
 export default function Header({ name, title, photoUrl }: HeaderProps) {
+  const [isMobile, setIsMobile] = useState(false)
+  
+    useEffect(() => {
+      const handleResize = () => {
+        if (window.innerWidth <= 768) {
+          setIsMobile(true);
+        } else {
+          setIsMobile(false);
+        }
+      };
+
+      handleResize();
+  
+      window.addEventListener('resize', handleResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+
   return (
     <motion.header
       initial={{ y: -100, opacity: 0 }}
@@ -17,7 +38,7 @@ export default function Header({ name, title, photoUrl }: HeaderProps) {
       transition={{ duration: 0.8 }}
       className="flex flex-col md:flex-row items-center justify-center md:justify-start py-20 px-4 md:px-20"
     >
-      <div className="text-center md:text-center" style={{marginRight: '25%'}}>
+      <div className="text-center md:text-center" style={{marginLeft: isMobile? '22%': '0%', marginRight: '25%', marginBottom: '10%'}}>
         <h1 className="text-5xl font-bold mb-4">{name}</h1>
         <h2 className="text-3xl text-gray-300">{title}</h2>
       </div>
