@@ -17,7 +17,7 @@ export default function Header({ name, title, photoUrl }: HeaderProps) {
       transition={{ duration: 0.8 }}
       className="flex flex-col md:flex-row items-center justify-center md:justify-start py-20 px-4 md:px-20"
     >
-      <div className="text-center md:text-left" style={{marginRight: '25%'}}>
+      <div className="text-center md:text-center" style={{marginRight: '25%'}}>
         <h1 className="text-5xl font-bold mb-4">{name}</h1>
         <h2 className="text-3xl text-gray-300">{title}</h2>
       </div>
