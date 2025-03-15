@@ -16,7 +16,9 @@
     "NoSQL",
     "SQL",
     "Devops",
-    "Nest.js"
+    "Nest.js",
+    "Devops",
+    "C"
   ],
   "experience": [
     {
@@ -45,6 +47,12 @@
     }
   ],
   "projects": [
+    {
+      "title": "Domain Master",
+      "description": "A domain searching and purchasing system thats uses godaddy' API and stripe payment system to pay for domains.",
+      "image": "",
+      "link": "https://domain-master.vercel.app/"
+    },
     {
       "title": "Automated Attendance System",
       "description": "A full-featured Automated attendance app built with React, Flutter, Python, Embedded C and MySQL.",
