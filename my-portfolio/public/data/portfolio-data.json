@@ -14,7 +14,9 @@
     "Django",
     "RedisDB",
     "NoSQL",
-    "Devops"
+    "SQL",
+    "Devops",
+    "Nest.js"
   ],
   "experience": [
     {
@@ -34,6 +36,12 @@
       "position": "Junior Developer",
       "duration": "Jun 2023 - 2024",
       "description": "Empowered over 30 students in programming education(mainly Python), igniting careers with expertise and care"
+    },
+    {
+      "company": "Oreon",
+      "position": "Backend Developer",
+      "duration": "Jan 2024 - March 2024",
+      "description": "Develeped robust backend that integrates into AI to build business more easily."
     }
   ],
   "projects": [
@@ -42,6 +50,12 @@
       "description": "A full-featured Automated attendance app built with React, Flutter, Python, Embedded C and MySQL.",
       "image": "/images/AATS_image.jpg",
       "link": "https://github.com/Bese3/ASAS.git"
+    },
+    {
+      "title": "Movie Listing Platform",
+      "description": "A simple Movie listing platform that lets you save your favourites, watch laters (to remind you to watch on your free time), and rate them.",
+      "image": "https://i.ibb.co/dsyY2Cpn/image.png",
+      "link": "https://magic-movies.vercel.app/"
     },
     {
       "title": "Twitter Clone",
