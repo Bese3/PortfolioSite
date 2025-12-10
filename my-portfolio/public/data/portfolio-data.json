@@ -18,9 +18,16 @@
     "Devops",
     "Nest.js",
     "Devops",
-    "C"
+    "C",
+    "Gitlab CI/CD"
   ],
   "experience": [
+    {
+      "company": "Awura PLC",
+      "position": "Backend Engineer",
+      "duration": "March 2025 - Present",
+      "description": "Leading a Highly sensetive and impactful Backend Project, Continious developing in our in house product called OwlEvents that helps event organizer to manage complicated events in simplified manner."
+    },
     {
       "company": "FINETO",
       "position": "Software Developer",
@@ -47,6 +54,12 @@
     }
   ],
   "projects": [
+    {
+      "title": "Discord Gaming Bot for Private Server",
+      "description": "A discord bot that manages gaming events for tournaments",
+      "image": "",
+      "link": "#"
+    },
     {
       "title": "Domain Master",
       "description": "A domain searching and purchasing system thats uses godaddy' API and stripe payment system to pay for domains.",
