@@ -55,18 +55,6 @@
   ],
   "projects": [
     {
-      "title": "Discord Gaming Bot for Private Server",
-      "description": "A discord bot that manages gaming events for tournaments",
-      "image": "",
-      "link": "#"
-    },
-    {
-      "title": "Domain Master",
-      "description": "A domain searching and purchasing system thats uses godaddy' API and stripe payment system to pay for domains.",
-      "image": "",
-      "link": "https://domain-master.vercel.app/"
-    },
-    {
       "title": "Automated Attendance System",
       "description": "A full-featured Automated attendance app built with React, Flutter, Python, Embedded C and MySQL.",
       "image": "/images/AATS_image.jpg",
@@ -75,8 +63,14 @@
     {
       "title": "Movie Listing Platform",
       "description": "A simple Movie listing platform that lets you save your favourites, watch laters (to remind you to watch on your free time), and rate them.",
-      "image": "https://i.ibb.co/dsyY2Cpn/image.png",
+      "image": "https://i.ibb.co/JRC7phsF/image.png",
       "link": "https://magic-movies.vercel.app/"
+    },
+    {
+      "title": "Domain Master",
+      "description": "A domain searching and purchasing system thats uses godaddy' API and stripe payment system to pay for domains.",
+      "image": "",
+      "link": "https://domain-master.vercel.app/"
     },
     {
       "title": "Twitter Clone",
@@ -89,6 +83,12 @@
       "description": "A simple Educational Organization progress tracking system API built with Express, MongoDB/Mongoose, Bull, and Node.js.",
       "image": "/images/EDUTrack.png",
       "link": "https://github.com/Bese3/EDU-Track"
+    },
+    {
+      "title": "Discord Gaming Bot for Private Server",
+      "description": "A discord bot that manages gaming events for tournaments",
+      "image": "",
+      "link": "#"
     }
   ],
   "contact": {
